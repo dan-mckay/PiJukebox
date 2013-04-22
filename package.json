@@ -1,0 +1,21 @@
+{
+  "name": "PiJukebox",
+  "description": "A Raspberry Pi jukebox, controlled by tweets.",
+  "version": "0.0.1",
+  "author": "Daniel McKay <mckayefc@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "nodemon jukey.js"
+  },
+  "dependencies": {
+    "ntwitter": "0.5.0",
+    "request": "~2.16.0",
+    "spotify-web": "0.1.1",
+    "lame": "1.0.2",
+    "speaker": "0.0.9",
+    "johnny-five": "0.5.14"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
